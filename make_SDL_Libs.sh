@@ -6,9 +6,6 @@ export CFLAGS
 export LDFLAGS
 export PKG_CONFIG_PATH
 
-./download.sh config.guess
-./download.sh config.sub
-
 ## Fetch the build scripts.
 BUILD_SCRIPTS=`ls scripts/*.sh | sort`
 
